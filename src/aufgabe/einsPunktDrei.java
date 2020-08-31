@@ -8,7 +8,14 @@ public class einsPunktDrei{
         System.out.println(helloWorld);
         System.out.println(helloWorld.toUpperCase());
         System.out.println(helloWorld.toLowerCase());
-        String raplaceString = helloWorld.replace("'World!","Codersbay");
-        System.out.println();
+        String replaceString = helloWorld.replace("World!","Codersbay");
+        System.out.println(replaceString);
+        helloWorld = helloWorld.trim();
+        System.out.println(helloWorld);
+        helloWorld+="\n";
+        String repeatedString = helloWorld.repeat(15);
+        System.out.print(repeatedString);
+
+
     }
 }
